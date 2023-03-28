@@ -1,10 +1,10 @@
-.profile__button_add {
+.profile__button_tambah {
     height: 50px;
     width: 150px;
     display: flex;
     background-color: #000;
     border: 2px solid #FFF;
-    background-image: url(../../../images/add-button.svg);
+    background-image: url(../../../../images/ikon-tambah.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 22px;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .profile__button_add {
+    .profile__button_tambah {
         margin-top: 30px;
         background-size: 16px;
         margin-left: 200px;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 969px) {
-    .profile__button_add {
+    .profile__button_tambah {
         margin-top: 30px;
         background-size: 16px;
         margin-left: 30px;
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width: 785px) {
-    .profile__button_add{
+    .profile__button_tambah {
         width: 100%;
         margin-top: 30px;
         margin-left: 0;
@@ -37,7 +37,7 @@
 }
 
 @media screen and (max-width: 425px) {
-    .profile__button_add {
+    .profile__button_tambah {
         width: 100%;
         margin-top: 30px;
         background-size: 16px;
