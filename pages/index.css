@@ -7,7 +7,16 @@
 @import url('../blocks/profile/__container/profile__container.css');
 @import url('../blocks/profile/__info/profile__info.css');
 @import url('../blocks/profile/__name/profile__name.css');
-@import url('../blocks/profile/__occupation/profile__occupation.css');
+@import url('../blocks/profile/__about/profile__about.css');
 @import url('../blocks/profile/__picture/profile__picture.css');
 @import url('../blocks/profile/__button/_ubah/profile__button_ubah.css');
 @import url('../blocks/profile/__button/_tambah/profile__button_tambah.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__button/_suka/photo-grid__button_suka.css');
+@import url('../blocks/photo-grid/__container/photo-grid__container.css');
+@import url('../blocks/photo-grid/__content/photo-grid__content.css');
+@import url('../blocks/photo-grid/__item/photo-grid__item.css');
+@import url('../blocks/photo-grid/__picture/photo-grid__picture.css');
+@import url('../blocks/photo-grid/__title/photo-grid__title.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');

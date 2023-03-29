@@ -1,4 +1,4 @@
-.profile__occupation{
+.profile__about {
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
@@ -8,14 +8,14 @@
 }
 
 @media screen and (max-width: 765px) {
-  .profile__occupation {
+  .profile__about {
     text-align: center;
     align-items: center;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .profile__occupation {
+  .profile__about {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
