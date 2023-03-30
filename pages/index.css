@@ -1,8 +1,13 @@
+/* Vendor */
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/inter.css');
 @import url('../blocks/page/page.css');
+
+/* Header */
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
+
+/* Blok Profile */
 @import url('../blocks/profile/profile.css');
 @import url('../blocks/profile/__container/profile__container.css');
 @import url('../blocks/profile/__info/profile__info.css');
@@ -11,6 +16,8 @@
 @import url('../blocks/profile/__picture/profile__picture.css');
 @import url('../blocks/profile/__button/_ubah/profile__button_ubah.css');
 @import url('../blocks/profile/__button/_tambah/profile__button_tambah.css');
+
+/* Blok Content photo Grid */
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/photo-grid/__button/_suka/photo-grid__button_suka.css');
 @import url('../blocks/photo-grid/__container/photo-grid__container.css');
@@ -18,5 +25,19 @@
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
 @import url('../blocks/photo-grid/__picture/photo-grid__picture.css');
 @import url('../blocks/photo-grid/__title/photo-grid__title.css');
+
+/* Blok Footer */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
+
+/* Popup */
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__form/popup__form.css');
+@import url('../blocks/popup/__button/_close/popup__button_close.css');
+@import url('../blocks/popup/__title/popup__title.css');
+@import url('../blocks/popup/__name/popup__name.css');
+@import url('../blocks/popup/__name-field/popup__name-field.css');
+@import url('../blocks/popup/__about/popup__about.css');
+@import url('../blocks/popup/__about-field/popup__about-field.css');
+@import url('../blocks/popup/__save/popup__save.css');
+@import url('../blocks/popup/__button/_submit/popup__button_submit.css');
