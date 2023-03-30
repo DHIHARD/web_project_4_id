@@ -34,3 +34,7 @@ editButton.addEventListener('click', popupVisible);
 closeButton.addEventListener('click', popupVisible);
 
 formElement.addEventListener('submit', handleProfileFormSubmit);
+
+// tombol suka 
+
+let likedButton = document.querySelector('.photo-grid__button_disukai');
