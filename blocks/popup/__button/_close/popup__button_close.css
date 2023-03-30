@@ -11,6 +11,11 @@
   margin-left: 225px;
 }
 
+.popup__button_close:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 880px) {
   .popup__button_close {
       height: 35px;

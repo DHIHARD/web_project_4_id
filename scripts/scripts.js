@@ -1,30 +1,36 @@
-// Mari kita cari formulirnya di DOM
-let formElement = // Gunakanlah metode querySelector()
+let content = document.querySelector('.content');
 
-// Selanjutnya adalah *handler* pengiriman formulir, meskipun
-// *handler* ini tidak akan mengirimkan ke mana pun untuk saat ini
+let editButton = content.querySelector('.profile__button_ubah');
+let profileName = content.querySelector('.profile__name');
+let profileAbout = content.querySelector('.profile__about');
 
-// Perhatikan bahwa nama fungsi dimulai dengan kata kerja
-// dan menjelaskan dengan tepat apa fungsinya
-function handleProfileFormSubmit(evt) {
-    // Baris ini menghentikan browser untuk
-    // mengirimkan formulir secara bawaan.
-    evt.preventDefault();
-    // Setelah melakukannya, kita dapat menentukan cara kita sendiri untuk mengirimkan formulir.
-    // Kami akan menjelaskannya lebih terperinci nanti.
+let formElement = document.querySelector('.popup');
+let closeButton = document.querySelector('.popup__button_close');
+let nameInput = document.querySelector('.popup__name-field');
+let aboutInput = document.querySelector('.popup__about-field');
+let saveButton = content.querySelector('.popup__button_submit');
 
-    // Mari kita temukan kolom formulir di DOM
-    let nameInput = // Use querySelector()
-    let jobInput = // Use querySelector()
+let newName;
+let newAbout;
 
-    // Dapatkan nilai setiap kolom dari properti nilai yang sesuai
-
-    // Pilih elemen tempat nilai setiap bagian akan dimasukkan
-
-    // Tambahkan nilai baru menggunakan textContent
-    // properti dari metode querySelector()
+function popupVisible () {
+    formElement.classList.toggle('popup_closed')
 }
 
-// Hubungkan *handler* dengan formulir:
-// ini akan mengamati *event* pengiriman
+function handleProfileFormSubmit (evt) {
+    evt.preventDefault();
+
+    newName = nameInput.value;
+    newAbout = aboutInput.value;
+
+    profileName.textContent = newName;
+    profileAbout.textContent = newAbout;
+
+    popupVisible();
+}
+
+editButton.addEventListener('click', popupVisible);
+
+closeButton.addEventListener('click', popupVisible);
+
 formElement.addEventListener('submit', handleProfileFormSubmit);
