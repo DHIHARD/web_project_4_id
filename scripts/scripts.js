@@ -4,17 +4,16 @@ let editButton = content.querySelector('.profile__button_ubah');
 let profileName = content.querySelector('.profile__name');
 let profileAbout = content.querySelector('.profile__about');
 
-let formElement = document.querySelector('.popup');
+let formElement = document.querySelector('.popup_opened');
 let closeButton = document.querySelector('.popup__button_close');
 let nameInput = document.querySelector('.popup__name-field');
 let aboutInput = document.querySelector('.popup__about-field');
-let saveButton = content.querySelector('.popup__button_submit');
 
 let newName;
 let newAbout;
 
 function popupVisible () {
-    formElement.classList.toggle('popup_closed')
+    formElement.classList.toggle('popup_opened')
 }
 
 function handleProfileFormSubmit (evt) {
@@ -35,6 +34,4 @@ closeButton.addEventListener('click', popupVisible);
 
 formElement.addEventListener('submit', handleProfileFormSubmit);
 
-// tombol suka 
-
-let likedButton = document.querySelector('.photo-grid__button_disukai');
+// tombol suka

@@ -1,6 +1,6 @@
 .popup__button_close {
   background-image: url('../../../../images/ikon-tutup.svg');
-  position: fixed;
+  position: absolute;
   border: none;
   background-color: unset;
   background-size: contain;
