@@ -4,7 +4,7 @@ let editButton = content.querySelector('.profile__button_ubah');
 let profileName = content.querySelector('.profile__name');
 let profileAbout = content.querySelector('.profile__about');
 
-let formElement = document.querySelector('.popup_opened');
+let formElement = document.querySelector('.popup');
 let closeButton = document.querySelector('.popup__button_close');
 let nameInput = document.querySelector('.popup__name-field');
 let aboutInput = document.querySelector('.popup__about-field');
@@ -13,7 +13,13 @@ let newName;
 let newAbout;
 
 function popupVisible () {
+    nameInput.value = profileName.textContent;
+    aboutInput.value = profileAbout.textContent;
     formElement.classList.toggle('popup_opened')
+}
+
+function popupClose () {
+    formElement.classList.toggle('popup_opened')   
 }
 
 function handleProfileFormSubmit (evt) {
@@ -25,12 +31,12 @@ function handleProfileFormSubmit (evt) {
     profileName.textContent = newName;
     profileAbout.textContent = newAbout;
 
-    popupVisible();
+    popupClose ();
 }
 
 editButton.addEventListener('click', popupVisible);
 
-closeButton.addEventListener('click', popupVisible);
+closeButton.addEventListener('click', popupClose);
 
 formElement.addEventListener('submit', handleProfileFormSubmit);
 
