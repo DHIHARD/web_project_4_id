@@ -1,4 +1,4 @@
-.popup__button_close {
+.popup__button-close {
   background-image: url('../../../../images/ikon-tutup.svg');
   position: absolute;
   border: none;
@@ -11,20 +11,20 @@
   left: 100%;
 }
 
-.popup__button_close:hover {
+.popup__button-close:hover {
   opacity: .8;
   cursor: pointer;
 }
 
 @media screen and (max-width: 880px) {
-  .popup__button_close {
+  .popup__button-close {
       height: 35px;
       width: 35px;
   }
 }
 
 @media screen and (max-width: 440px) {
-   .popup__button_close {
+   .popup__button-close {
       height: 26px;
       width: 26px;
   }

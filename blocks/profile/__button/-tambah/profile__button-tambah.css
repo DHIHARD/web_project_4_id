@@ -1,4 +1,4 @@
-.profile__button_tambah {
+.profile__button-tambah {
     height: 50px;
     width: 150px;
     display: flex;
@@ -11,13 +11,13 @@
     margin-left: 65px;
 }
 
-.profile__button_tambah:hover {
+.profile__button-tambah:hover {
   opacity: .8;
   cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
-    .profile__button_tambah {
+    .profile__button-tambah {
         margin-top: 30px;
         background-size: 16px;
         margin-left: 200px;
@@ -25,7 +25,7 @@
 }
 
 @media screen and (max-width: 969px) {
-    .profile__button_tambah {
+    .profile__button-tambah {
         margin-top: 30px;
         background-size: 16px;
         margin-left: 30px;
@@ -33,7 +33,7 @@
 }
 
 @media screen and (max-width: 785px) {
-    .profile__button_tambah {
+    .profile__button-tambah {
         width: 100%;
         margin-top: 30px;
         margin-left: 0;
@@ -42,7 +42,7 @@
 }
 
 @media screen and (max-width: 425px) {
-    .profile__button_tambah {
+    .profile__button-tambah {
         width: 100%;
         margin-top: 30px;
         background-size: 16px;

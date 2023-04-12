@@ -1,11 +1,11 @@
 let content = document.querySelector('.content');
 
-let editButton = content.querySelector('.profile__button_ubah');
+let editButton = content.querySelector('.profile__button-ubah');
 let profileName = content.querySelector('.profile__name');
 let profileAbout = content.querySelector('.profile__about');
 
 let formElement = document.querySelector('.popup');
-let closeButton = document.querySelector('.popup__button_close');
+let closeButton = document.querySelector('.popup__button-close');
 let nameInput = document.querySelector('.popup__name-field');
 let aboutInput = document.querySelector('.popup__about-field');
 

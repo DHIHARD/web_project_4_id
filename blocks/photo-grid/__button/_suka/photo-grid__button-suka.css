@@ -1,4 +1,4 @@
-.photo-grid__button_suka {
+.photo-grid__button-suka {
     background-image: url(../../../../images/ikon-suka.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -12,7 +12,7 @@
     margin-right: 15px;
 }
 
-.photo-grid__button_suka:hover {
+.photo-grid__button-suka:hover {
   opacity: .8;
   cursor: pointer;
 }
