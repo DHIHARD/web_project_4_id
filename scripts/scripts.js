@@ -5,9 +5,10 @@ let profileName = content.querySelector('.profile__name');
 let profileAbout = content.querySelector('.profile__about');
 
 let formElement = document.querySelector('.popup');
+let popupForm = document.querySelector('.popup__form');
 let closeButton = document.querySelector('.popup__button-close');
-let nameInput = document.querySelector('.popup__name-field');
-let aboutInput = document.querySelector('.popup__about-field');
+let nameInput = document.querySelector('.popup__input_name-field');
+let aboutInput = document.querySelector('.popup__input_about-field');
 
 let newName;
 let newAbout;
