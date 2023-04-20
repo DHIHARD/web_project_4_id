@@ -38,7 +38,5 @@
 @import url('../blocks/popup/__button/-close/popup__button-close.css');
 @import url('../blocks/popup/__title/popup__title.css');
 @import url('../blocks/popup/__input/popup__input.css');
-@import url('../blocks/popup/__input/_name-field/popup__input_name-field.css');
-@import url('../blocks/popup/__input/_about-field/popup__input_about-field.css');
 @import url('../blocks/popup/__save/popup__save.css');
 @import url('../blocks/popup/__button/-submit/popup__button-submit.css');
